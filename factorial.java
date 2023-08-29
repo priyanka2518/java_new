@@ -3,10 +3,11 @@ class factorial
 	public static void main(String[] args) 
 	{
 		int fact=1;
-		for (int n=5;n>=1;n--)
+		int n=5;
+		while (n>=1)
 		{
 			fact=fact*n;
-			
+			n--;
 		}
 		System.out.println("Factorial is:"+fact);
 	}

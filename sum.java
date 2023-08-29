@@ -4,16 +4,14 @@ class sum
 	{
 		int i=0;
 		int sum=0;
-		do
+		while (i<=100)
 		{
-			if(i%3==0 && i%9==0)
+			if(i%3==0 &&i%9==0)
 			{
-				System.out.println(i);
-		        sum=sum+i;
-            }
+				sum=sum+i;
+			}
 		i++;
 		}
-		while (i<=100);
-		System.out.println("addition is:"+sum);
+		System.out.println("Addition is:"+sum);
 	}
 }

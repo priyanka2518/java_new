@@ -1,16 +1,14 @@
-class  ffc
+class ffc 
 {
 	public static void main(String[] args) 
 	{
 		char ch='a';
-       
-		do
+		int sum=0;
+		while (ch<='e')
 		{
-          System.out.print(ch);
-		  ch++;
+			sum=sum+ch;
+			ch++;
 		}
-		while (ch<='e');
-	
-
+		System.out.println("sum is:"+sum);
 	}
 }

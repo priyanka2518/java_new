@@ -3,14 +3,12 @@ class product
 	public static void main(String[] args) 
 	{
 		int i=1;
-        int product=1;
-		do
+		int res=1;
+		while (i<=5)
 		{
-          product=product*i;
-		  i++;
+			res=res*i;
+			i++;
 		}
-		while (i<=5);
-		System.out.println("Product is:"+product);
-
+		System.out.println("product is:"+res);
 	}
 }
