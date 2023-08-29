@@ -1,22 +1,16 @@
-//write a program to store first 5 even numbers in array and print the array
-class even
+class even  
 {
 	public static void main(String[] args) 
 	{
-		int[] n=new int[5];
-		int a=1;
-		for (int index=0;index<n.length;a++)
+		int n=0;
+		do
 		{
-			if(a%2==0)
+			if(n%2==0)
 			{
-			  n[index++]=a;
-			  //System.out.println(n[index]);
+		      System.out.println(n);
 			}
+        n++;
 		}
-		/*for (int index=0;index<n.length;a++)
-		{
-			
-		}*/
-
+		while (n<=25);
 	}
 }
