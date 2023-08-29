@@ -1,9 +1,9 @@
-//design a method to perform product of three numbers
-class product
+//design a method to perform addition of three numbers
+class addition
 {
 	public static void add(int a,int b,int c)
 	{
-		int res=a*b*c;
+		int res=a+b+c;
 		System.out.println(res);
 	}
 
