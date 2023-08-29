@@ -2,15 +2,11 @@ class add
 {
 	public static void main(String[] args) 
 	{
-		int i=1;
 		int sum=0;
-
-		do
-		{
-          sum=sum+i;
-		  i++;
-		}
-		while (i<=5);
-		System.out.println("sum is"+sum);
-	}
+	  for(int i=0;i<=5;i++)
+	  {
+        sum=sum+i;
+	  }
+	  System.out.println("Addition is:"+sum);
+    }
 }

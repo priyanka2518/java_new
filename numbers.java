@@ -1,19 +1,15 @@
-class numbers
+class numbers 
 {
 	public static void main(String[] args) 
 	{
-		int n=0;
-		int count=0;
-		do
+		int sum=0;
+		for (int i=0;i<=100;i++)
 		{
-			if(n%5==0 && n%7==0)
+			if(i%3==0 && i%9==0)
 			{
-		      count++;
-            }
-		n++;
+				sum=sum+i;
+			}
 		}
-		while (n<=200);
-	    System.out.println(count);
-
+		System.out.println("Addition is:"+sum);
 	}
 }

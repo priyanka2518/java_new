@@ -1,14 +1,10 @@
-class  reverse
+class reverse
 {
 	public static void main(String[] args) 
 	{
-		int n=5;
-
-		do
+      for(int i=5;i>=0;i--)
 		{
-          System.out.println(n);
-          n--;
+		  System.out.println(i);
 		}
-		while (n>=0);
 	}
 }

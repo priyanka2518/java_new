@@ -1,16 +1,14 @@
-class even  
+class even 
 {
 	public static void main(String[] args) 
 	{
-		int n=0;
-		do
+		for (int i=0;i<=100;i++)
 		{
-			if(n%2==0)
+			if(i%3==0 && i%7==0)
 			{
-		      System.out.println(n);
+              System.out.println(i);
 			}
-        n++;
 		}
-		while (n<=25);
+		
 	}
 }

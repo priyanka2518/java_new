@@ -1,11 +1,11 @@
-class vowels 
+class all_n 
 {
 	public static void main(String[] args) 
 	{
 		int count=0;
-		for (char ch='a';ch<='z';ch++)
+		for (int i=0;i<=200;i++)
 		{
-			if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+			if(i%5==0 && i%7==0)
 			{
 				count++;
 			}

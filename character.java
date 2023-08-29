@@ -1,14 +1,12 @@
-class  character
+class character 
 {
 	public static void main(String[] args) 
 	{
-		char ch='e';
-
-		do
+		int sum=0;
+		for (int ch='a';ch<='e';ch++ )
 		{
-          System.out.println(ch);
-          ch--;
+			sum=sum+ch;
 		}
-		while (ch>='a');
+		System.out.println("Addition of character is:"+sum);
 	}
 }
